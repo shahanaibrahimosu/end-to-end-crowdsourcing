@@ -1,0 +1,13 @@
+Splitting train and validation data
+Generating synthetic classifier annotations
+Getting noisy labels from annotators
+Splitting train and validation data
+Starting trial 0.....................
+Running VOLMINEECS_LOGDETH
+Namespace(K=10, M=5, N=10000, R=5, annotator_label_pattern='per-sample-budget', annotator_type='synthetic', batch_size=400, classifier_NN='resnet9', coeff_label_smoothing=0, conf_mat_type='separable-and-uniform', dataset='cifar10', device=1, flag_hyperparameter_tuning=True, flag_preload_annotations=True, gamma=0.01, good_bad_annotator_ratio=0.1, l=1, lam=0.0001, learning_rate=0.01, log_folder='results/cifar10_synthetic/', n_epoch=80, n_epoch_maxmig=20, n_trials=1, p=0.1, proposed_init_type='identity', proposed_projection_type='simplex_projection', seed=1)
+Using cross entropy....
+Training with lambda=0.01 learning_rate = 0.001
+epoch:1, Total train loss: 2.0082, CE loss: 2.3137, Regularizer loss: -30.5515, Train Acc: 0.1642,  Val. Acc: 0.1952,  Estim. error: 0.5009
+epoch:2, Total train loss: 1.9730, CE loss: 2.3134, Regularizer loss: -34.0390, Train Acc: 0.2114,  Val. Acc: 0.2552,  Estim. error: 0.4994
+epoch:3, Total train loss: 1.9570, CE loss: 2.2972, Regularizer loss: -34.0205, Train Acc: 0.2793,  Val. Acc: 0.3124,  Estim. error: 0.4973
+epoch:4, Total train loss: 1.9454, CE loss: 2.2889, Regularizer loss: -34.3557, Train Acc: 0.3239,  Val. Acc: 0.3448,  Estim. error: 0.4942
