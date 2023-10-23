@@ -127,7 +127,7 @@ def generate_annotator_labels(A,pattern,p,l,y):
 		annotators_per_sample = []
 		for n in range(N):
 			a = np.argwhere(mask[n,:]==1)
-			annotators_per_sample.append(a[:,0])
+			annotators_per_sample.append(a[0])
 			count=0
 			for m in annotators_per_sample[n]:
 				t =  np.random.multinomial(1,A[m,:,y[n]])
